@@ -210,6 +210,9 @@ footer ul li i {
   header .image-header nav ul {
     display: none;
   }
+  header .image-header h1 {
+    margin: 10px 0;
+  }
   .description {
     display: flex;
     flex-direction: column-reverse;
@@ -245,10 +248,12 @@ footer ul li i {
     display: flex;
     flex-direction: column;
     padding: 0;
+    height: auto;
   }
   .photos {
     display: flex;
     flex-wrap: wrap;
+    height: auto;
   }
   .photos img {
     width: 230px;
